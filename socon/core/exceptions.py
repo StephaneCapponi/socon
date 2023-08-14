@@ -25,3 +25,7 @@ class ManagerNotFound(Exception):
 
 class HookNotFound(Exception):
     """Cannot find the hook in the manager"""
+
+
+class ServiceNotFound(Exception):
+    """Cannot find the requested service"""
